@@ -394,12 +394,12 @@ body {
   .section {
     padding: 48px 40px;
   }
-  
+
   .about-content {
     flex-direction: column;
     gap: 32px;
   }
-  
+
   .about-image {
     max-width: 100%;
   }
@@ -409,18 +409,111 @@ body {
   .section {
     padding: 32px 24px;
   }
-  
+
   .section-header {
     flex-direction: column;
     gap: 24px;
   }
-  
+
   .section-nav {
     flex-wrap: wrap;
     gap: 16px;
   }
-  
+
   .initials-logo {
     font-size: 48px;
+  }
+}
+
+/* Hero Section Updates */
+.greeting {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 12px;
+  display: block;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 800;
+  color: #1a1a1a;
+  line-height: 1.1;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
+  background: linear-gradient(to right, #1a1a1a, #4b5563);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-description {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #6b7280;
+  margin-bottom: 40px;
+  max-width: 600px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+
+.primary-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #1a1a1a;
+  color: #ffffff;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid transparent;
+}
+
+.primary-btn:hover {
+  background-color: #374151;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.secondary-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  font-weight: 600;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.2s;
+  border: 1px solid #e5e7eb;
+}
+
+.secondary-btn:hover {
+  background-color: #f9fafb;
+  border-color: #d1d5db;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 36px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+    justify-content: center;
   }
 }
