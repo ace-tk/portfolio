@@ -7,7 +7,6 @@ export default function Home({ activeSection, scrollToSection }) {
   return (
     <section id="portfolio" className="section home-section">
       <div className="section-header">
-        <div className="initials-logo">TK</div>
         <nav className="section-nav">
           <a
             href="#portfolio"
@@ -54,7 +53,7 @@ export default function Home({ activeSection, scrollToSection }) {
             Web & Mobile App <span className="highlight">Developer</span>
           </h1>
           <p className="hero-description">
-            
+
           </p>
 
           <div className="hero-buttons">
