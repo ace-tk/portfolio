@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import Home from "./components/Home";
 import About from "./components/About";
 import Contact from "./components/Contact";
-import Extras from "./components/Extras";
+
 import Projects from "./components/Projects";
 import Resume from "./components/Resume";
 import "./App.css";
@@ -43,7 +43,6 @@ function App() {
       <About activeSection={activeSection} scrollToSection={scrollToSection} />
       <Projects />
       <Contact activeSection={activeSection} scrollToSection={scrollToSection} />
-      <Extras activeSection={activeSection} scrollToSection={scrollToSection} />
       <Resume activeSection={activeSection} scrollToSection={scrollToSection} />
     </div>
   );
