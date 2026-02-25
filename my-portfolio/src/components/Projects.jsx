@@ -52,7 +52,7 @@ export default function Projects() {
             </p>
           </div>
 
-          <div className="projects-grid">
+          <div className="projects-scroll">
             {featuredProjects.map((project, index) => (
               <div className="project-card" key={index}>
                 <div className="project-image" />
@@ -83,7 +83,7 @@ export default function Projects() {
             </p>
           </div>
 
-          <div className="projects-grid">
+          <div className="projects-scroll">
             {ongoingProjects.map((project, index) => (
               <div className="project-card" key={index}>
                 <div className="project-image" />
