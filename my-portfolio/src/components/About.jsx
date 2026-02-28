@@ -1,4 +1,4 @@
-export default function About({ activeSection, scrollToSection }) {
+export default function About() {
   return (
     <section id="about" className="section about-section">
       <div className="about-content-centered">
