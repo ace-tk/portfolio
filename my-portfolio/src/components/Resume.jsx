@@ -13,19 +13,6 @@ export default function Resume({ activeSection, scrollToSection }) {
         </div>
         <div className="resume-sections">
           <div className="resume-section-item">
-            <h3>Experience</h3>
-            <div className="resume-item">
-              <h4>Product Designer</h4>
-              <p className="resume-company">Company Name • 2021 - Present</p>
-              <p>Leading design initiatives for innovative digital products.</p>
-            </div>
-            <div className="resume-item">
-              <h4>UX Designer</h4>
-              <p className="resume-company">Previous Company • 2020 - 2021</p>
-              <p>Designed user experiences for web and mobile applications.</p>
-            </div>
-          </div>
-          <div className="resume-section-item">
             <h3>Education</h3>
             <div className="resume-item">
               <h4>Bachelor's Degree</h4>
