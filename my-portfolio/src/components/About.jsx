@@ -101,7 +101,7 @@ export default function About() {
                   <path d="M11.318 12.545H7.91v-1.091h3.41v1.09zm0 2.182H7.91v-1.091h3.41v1.09zm0 2.182H7.91v-1.091h3.41v1.09zm6.819-4.364H14.727v-1.091h3.41v1.09zm0 2.182H14.727v-1.091h3.41v1.09zm0 2.182H14.727v-1.091h3.41v1.09zM22.5 24h-21C.673 24 0 23.327 0 22.5v-21C0 .673.673 0 1.5 0h13.636L22.5 7.364V22.5c0 .827-.673 1.5-1.5 1.5zm-1.5-15h-6V3H3v18h18V9z" />
                 </svg>
               </div>
-              <span className="skill-name">Google Sheets</span>
+              <span className="skill-name">G</span>
             </div>
           </div>
         </div>
