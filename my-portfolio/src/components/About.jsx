@@ -6,7 +6,7 @@ export default function About() {
         <p className="about-subtitle">Crafting Dynamic Web Experiences</p>
 
         <p className="about-description">
-          I'm Tisha, a passionate and dedicated Web & Mobile App Developer with over 2 years of experience in creating responsive, high-quality web applications. I specialize in HTML, CSS, JavaScript, React, and React Native (Expo), and I'm dedicated to delivering exceptional results through clean, efficient, and scalable code.
+          I'm Tisha, a passionate and dedicated Web & Mobile App Developer. I specialize in HTML, CSS, JavaScript, React, and React Native (Expo), and I'm dedicated to delivering exceptional results through clean, efficient, and scalable code.
         </p>
 
         <div className="skills-section">
