@@ -8,11 +8,7 @@ export default function Resume() {
     },
   ];
 
-  const skills = [
-    "HTML", "CSS", "JavaScript", "React", "React Native",
-    "Expo", "Node.js", "Express.js", "MongoDB", "Git",
-    "Google Sheets", "Figma",
-  ];
+
 
   const certifications = [
     {
@@ -83,18 +79,7 @@ export default function Resume() {
 
         </div>
 
-        {/* Skills */}
-        <div className="resume-block resume-block-full">
-          <h3 className="resume-block-title">
-            <span className="resume-block-dot" />
-            Skills
-          </h3>
-          <div className="resume-skills-grid">
-            {skills.map((skill, i) => (
-              <span className="resume-skill-tag" key={i}>{skill}</span>
-            ))}
-          </div>
-        </div>
+
       </div>
     </section>
   );
