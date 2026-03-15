@@ -1,3 +1,5 @@
+import Resume from "./Resume";
+
 export default function Contact() {
   const contactLinks = [
     {
@@ -75,6 +77,9 @@ export default function Contact() {
           ))}
         </div>
       </div>
+
+      {/* Embedded Resume */}
+      <Resume />
     </section>
   );
 }

@@ -4,7 +4,6 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 
 import Projects from "./components/Projects";
-import Resume from "./components/Resume";
 import "./App.css";
 
 function App() {
@@ -20,7 +19,7 @@ function App() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["portfolio", "about", "projects", "contact", "extras", "resume"];
+      const sections = ["portfolio", "about", "projects", "contact", "extras"];
       const scrollPosition = window.scrollY + 100;
 
       for (let i = sections.length - 1; i >= 0; i--) {
@@ -43,7 +42,6 @@ function App() {
       <About activeSection={activeSection} scrollToSection={scrollToSection} />
       <Projects />
       <Contact activeSection={activeSection} scrollToSection={scrollToSection} />
-      <Resume activeSection={activeSection} scrollToSection={scrollToSection} />
     </div>
   );
 }

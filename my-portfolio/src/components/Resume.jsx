@@ -24,9 +24,8 @@ export default function Resume() {
   ];
 
   return (
-    <section id="resume" className="section resume-section">
-      <div className="resume-content">
-        {/* Header */}
+    <div className="resume-content" id="resume">
+      {/* Header */}
         <p className="resume-eyebrow">My Background</p>
         <h2 className="resume-title">
           My <span className="highlight">Resume</span>
@@ -80,7 +79,6 @@ export default function Resume() {
         </div>
 
 
-      </div>
-    </section>
+    </div>
   );
 }

@@ -52,7 +52,7 @@ export default function Sidebar({ activeSection, scrollToSection }) {
             Portfolio
           </button>
           <button 
-            className={`sidebar-nav-item ${activeSection === "about" || activeSection === "contact" || activeSection === "extras" || activeSection === "resume" ? "active" : ""}`}
+            className={`sidebar-nav-item ${activeSection === "about" || activeSection === "contact" || activeSection === "extras" ? "active" : ""}`}
             onClick={() => scrollToSection("about")}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
