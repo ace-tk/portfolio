@@ -29,13 +29,7 @@ export default function Home({ activeSection, scrollToSection }) {
           >
             Contact
           </a>
-          <a
-            href="#extras"
-            className={`section-nav-link ${activeSection === "extras" ? "active" : ""}`}
-            onClick={(e) => handleNavClick(e, "extras")}
-          >
-            Extras
-          </a>
+
           <a
             href="#resume"
             className={`section-nav-link ${activeSection === "resume" ? "active" : ""}`}
