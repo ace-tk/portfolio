@@ -9,20 +9,6 @@ export default function Resume() {
   ];
 
 
-
-  const certifications = [
-    {
-      title: "Full-Stack Web Development",
-      issuer: "Newton School of Technology",
-      year: "2024",
-    },
-    {
-      title: "React & React Native",
-      issuer: "Udemy",
-      year: "2023",
-    },
-  ];
-
   return (
     <div className="resume-content" id="resume">
       {/* Header */}
@@ -31,7 +17,7 @@ export default function Resume() {
           My <span className="highlight">Resume</span>
         </h2>
         <p className="resume-desc">
-          A snapshot of my education, skills, and certifications.
+          A snapshot of my education and academic projects.
         </p>
 
         {/* Download Button */}
@@ -42,11 +28,10 @@ export default function Resume() {
           Download PDF Resume
         </a>
 
-        {/* Two-Column Grid */}
         <div className="resume-grid">
 
           {/* Education */}
-          <div className="resume-block">
+          <div className="resume-block resume-block-full">
             <h3 className="resume-block-title">
               <span className="resume-block-dot" />
               Education
@@ -57,21 +42,6 @@ export default function Resume() {
                 <h4 className="resume-card-heading">{item.degree}</h4>
                 <p className="resume-card-sub">{item.school}</p>
                 <p className="resume-card-desc">{item.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* Certifications */}
-          <div className="resume-block">
-            <h3 className="resume-block-title">
-              <span className="resume-block-dot" />
-              Certifications
-            </h3>
-            {certifications.map((item, i) => (
-              <div className="resume-card" key={i}>
-                <span className="resume-card-year">{item.year}</span>
-                <h4 className="resume-card-heading">{item.title}</h4>
-                <p className="resume-card-sub">{item.issuer}</p>
               </div>
             ))}
           </div>
