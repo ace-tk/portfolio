@@ -8,7 +8,7 @@ export default function Resume() {
           My <span className="highlight">Resume</span>
         </h2>
         <p className="resume-desc">
-          A snapshot of my professional background and skills.
+          
         </p>
 
         {/* Download Button */}
