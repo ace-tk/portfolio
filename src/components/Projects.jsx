@@ -3,17 +3,20 @@ export default function Projects() {
     {
       title: "Mess Management System",
       desc: "Web app for digital food ordering and subscriptions.",
-      tech: ["React", "Node.js", "MongoDB"],
+      tech: ["React", "Node.js", "MongoDB" , "Express"],
+      link: "https://mess-matee.vercel.app/",
     },
     {
-      title: "Mood Tracker App",
+      title: "Studdy-Buddy App",
       desc: "Tracks daily mood with local storage.",
-      tech: ["React", "CSS", "JavaScript"],
+      tech: ["React Native", "JavaScript"],
+      link: "https://drive.google.com/file/d/1gHhcRYKVK7XutZ3FeddNH5p-oZSkgBSP/view",
     },
     {
-      title: "Task Manager",
-      desc: "Organize tasks with deadlines.",
-      tech: ["React", "Express", "MongoDB"],
+      title: "Dino Game",
+      desc: "Integrated game logic using React.",
+      tech: ["HTML", "CSS", "Javascript" , "React"],
+      link: "https://jump-dino-gamma.vercel.app/",
     },
   ];
 
@@ -22,16 +25,19 @@ export default function Projects() {
       title: "Portfolio Redesign",
       desc: "Revamping my personal portfolio with improved UX, animations, and responsive layouts.",
       tech: ["React", "CSS", "Framer Motion"],
+      link: "#",
     },
     {
       title: "Learning Hub (In Progress)",
       desc: "A mini platform to share coding notes, resources, and practice projects.",
       tech: ["React", "Node.js", "MongoDB"],
+      link: "#",
     },
     {
       title: "Open Slot – Your Next Idea",
       desc: "Placeholder for an upcoming project. I’ll update this soon with something exciting!",
       tech: ["TBD"],
+      link: "#",
     },
   ];
 
@@ -68,7 +74,14 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <button className="project-btn">View Project</button>
+                <a 
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="project-btn"
+                >
+                  View Project
+                </a>
               </div>
             ))}
           </div>
@@ -99,7 +112,14 @@ export default function Projects() {
                   ))}
                 </div>
 
-                <button className="project-btn">View Project</button>
+                <a 
+                  href={project.link} 
+                  target="_blank" 
+                  rel="noopener noreferrer" 
+                  className="project-btn"
+                >
+                  View Project
+                </a>
               </div>
             ))}
           </div>
